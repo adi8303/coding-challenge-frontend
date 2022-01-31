@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "199236459271",
+    "project_id": "gitapi-577f8",
+    "storage_bucket": "gitapi-577f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199236459271:android:f0c0a610f5cdc77514c3a2",
+        "android_client_info": {
+          "package_name": "com.example.gitapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199236459271-n0ku4rtg8dhk5cq6agf37oqe6f6gerfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATyaXgUEo1tOe0jIzRhiJIUoZ5-3ZNzGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199236459271-n0ku4rtg8dhk5cq6agf37oqe6f6gerfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

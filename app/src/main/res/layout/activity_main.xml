@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/githublogin1"
+    tools:context=".Views.view.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/caveat"
+        android:text="Hola! "
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/input_username"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="440dp"
+        android:fontFamily="@font/caveat"
+        android:hint="Enter Github Id here :"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="167dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/input_username"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#311B92"
+        android:fontFamily="@font/caveat"
+        android:gravity="center"
+        android:onClick="getUser"
+        android:text="Search"
+        android:textSize="20dp" />
+</RelativeLayout>
